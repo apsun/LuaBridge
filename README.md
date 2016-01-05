@@ -4,7 +4,7 @@ A method binding extension library for [LuaJ](http://www.luaj.org/luaj/3.0/READM
 
 ## Usage
 
-First, define your java class:
+First, define your Java class:
 ```Java
 // Java
 public class Point extends ExposedJavaClass {
@@ -48,7 +48,7 @@ public class Point extends ExposedJavaClass {
             return false;
         }
         Point otherPoint = (Point)other;
-        return mX == other.mX && mY == other.mY;
+        return mX == otherPoint.mX && mY == otherPoint.mY;
     }
 }
 ```
